@@ -439,24 +439,22 @@
                     </div>
                 </div>
                 
-                <!-- Vídeo 3 - COM POP-UP DE VÍDEO --><!-- POP-UP DE IMAGEM -->
-                <div class="popup-overlay" id="videoPopup">
-                    <div class="popup-content">
-                        <div class="popup-header">
-                            <span>Uma Imagem Muito Importante</span>
-                            <button class="close-btn" onclick="closePopup('videoPopup')">×</button>
-                        </div>
-        
-                <div class="popup-body">
-                    <div class="image-container">
-                        <a href="https://docs.google.com/document/d/1YiIQgTEzSE57lYkfsdAH7QYkSE3ec-AUCL4gzCsoXHE/edit?tab=t.0#heading=h.qxxku7baaghy" target="_blank">
-                            <img src="https://github.com/natsnatsnats/imagem/blob/main/cachorro.png?raw=true" alt="Imagem importante" style="max-width: 80%; max-height: 70vh; height: auto;">
-                             </a>
+                <!-- Vídeo 3 - COM POP-UP DE VÍDEO -->
+                <div class="video-card" onclick="openPopup('videoPopup')">
+                    <div class="video-thumb">
+                        <img src="https://raw.githubusercontent.com/natsnatsnats/imagem/main/istockphoto-1369325628-640x640.jpg" alt="Bicho Louco">
+                        <div class="play-icon">▶</div>
+                    </div>
+                    <div class="video-info">
+                        <h3 class="video-title">MATEI UM BICHO MUITO LOUCO</h3>
+                        <div class="video-channel">lazaro</div>
+                        <div class="video-meta">
+                            <span class="video-views">42K visualizações</span>
+                            <span class="video-time">há 8 meses</span>
                         </div>
                     </div>
                 </div>
             </div>
-                
         </main>
         
         <footer>
@@ -511,19 +509,18 @@
         </div>
     </div>
     
-    <!-- POP-UP DE IMAGEM -->
-<div class="popup-overlay" id="videoPopup">
-    <div class="popup-content">
-        <div class="popup-header">
-            <span>Para Ajudar na Criação da Personagem</span>
-            <button class="close-btn" onclick="closePopup('videoPopup')">×</button>
-        </div>
-        
-        <div class="popup-body">
-            <div class="image-container">
-                <a href="https://docs.google.com/document/d/1YiIQgTEzSE57lYkfsdAH7QYkSE3ec-AUCL4gzCsoXHE/edit?tab=t.0#heading=h.qxxku7baaghy" target="_blank">
-                    <img src="https://github.com/natsnatsnats/imagem/blob/main/cachorro.png?raw=true" alt="Imagem importante" style="max-width: 100%; height: auto;">
-                </a>
+    <!-- POP-UP DE VÍDEO -->
+    <div class="popup-overlay" id="videoPopup">
+        <div class="popup-content">
+            <div class="popup-header">
+                <span>Um Vídeo Muito Importante</span>
+                <button class="close-btn" onclick="closePopup('videoPopup')">×</button>
+            </div>
+            
+            <div class="popup-body">
+                <div class="video-container">
+                    <iframe src="https://www.youtube.com/embed/dQw4w9WgXcQ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
             </div>
         </div>
     </div>
